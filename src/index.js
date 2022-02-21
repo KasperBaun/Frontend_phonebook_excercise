@@ -23,6 +23,6 @@ const persons = [
 ]
 
 ReactDOM.render(
-  <App props={persons} />,
+  <App persons={persons} />,
   document.getElementById('root')
 )
